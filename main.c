@@ -44,19 +44,18 @@ char entrerLettre(){
     return tolower(lettre);
 }
 
-// Fonction pour savoir si le mot a été trouver
+// Fonction pour savoir si le mot a Ã©tÃ© trouver
 bool motTrouver(int taille,int masque[]){
     int total = 0;
-    for(int i = 0;i<taille;i++){
-        total += masque[i];
-    }
+    for(int i = 0;i<taille;i++) total += masque[i];
+    
     return (total == taille);
 }
 
 
 int main()
 {
-    // Déclaration des variables
+    // DÃ©claration des variables
     char motATrouver[] = "cidre";
 
     int masque[strlen(motATrouver)];
@@ -88,9 +87,9 @@ int main()
 
     // Afficher le message de fin
     if(vies > 0){
-        printf("\n\nBravo ! Le mot était bien %s",motATrouver);
+        printf("\n\nBravo ! Le mot Ã©tait bien %s",motATrouver);
     }else{
-        printf("\n\nDésolé, vous n'avez pas trouver le mot... C'était %s",motATrouver);
+        printf("\n\nDÃ©solÃ©, vous n'avez pas trouver le mot... C'Ã©tait %s",motATrouver);
     }
 
     return 0;
