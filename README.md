@@ -1,5 +1,5 @@
 # Pendu-C
-Un petit pendu en C (Les étoiles sont les lettres a trouver)
+Un petit pendu en C (Les étoiles sont les lettres à trouver)
 
 # Exemple de jeu
 ```
